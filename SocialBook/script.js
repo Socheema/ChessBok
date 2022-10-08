@@ -3,6 +3,7 @@
 let settingMenuToggler = document.getElementById('profile');
 let settingMenu = document.querySelector(".settings-menu");
 let darkBtn = document.getElementById('dark-btn');
+let inputField = document.getElementById('inputField')
 settingMenuToggler.addEventListener('click', function() {
     settingMenu.classList.toggle('settings-menu-height');
 })
